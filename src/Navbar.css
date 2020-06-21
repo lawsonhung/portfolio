@@ -1,0 +1,7 @@
+#navbar-header {
+  background-color: black;
+}
+
+button.navbar-toggler:hover {
+  background-color: grey;
+}
