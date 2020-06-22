@@ -1,0 +1,12 @@
+.about {
+  background-image: url('../assets/Snow Forest Background.jpg');
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.name {
+  border: solid;
+  border-color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
