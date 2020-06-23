@@ -27,6 +27,7 @@ class MyNavbar extends Component {
             <Nav className='mr-auto'>
               <Nav.Link href='#home' onSelect={() => this.scrollTo('home')}>Home</Nav.Link>
               <Nav.Link href='#about' onSelect={() => this.scrollTo('about')}>About</Nav.Link>
+              <Nav.Link href='#skills' onSelect={() => this.scrollTo('skills')}>Skills</Nav.Link>
               {/* <Form inline>
                 <FormControl type='text' placeholder='Search' className='mr-sm-2'/>
                 <Button variant='outline-success'>Search</Button>
