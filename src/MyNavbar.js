@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 // React Bootstrap imports
-import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+// eslint-disable-next-line
 import FormControl from 'react-bootstrap/FormControl';
+// eslint-disable-next-line
 import Form from 'react-bootstrap/Form';
-import Scroll from 'react-scroll';
 
 // Custom CSS
 import './Navbar.css';

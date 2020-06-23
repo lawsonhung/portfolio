@@ -1,10 +1,15 @@
 .skills {
+  /* Background image */
   /* Credits: https://unsplash.com/photos/nV7GJmSq3zc */
   background-image: url('../assets/NYC\ Background.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+
+  /* Text and alignment */
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .logo {
@@ -14,5 +19,5 @@
 
 .language {
   font-size: 1.75em;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 0px 0px 15px black;
 }

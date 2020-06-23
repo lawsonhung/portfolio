@@ -29,6 +29,7 @@ class Skills extends Component {
             <Col><p>Redux</p></Col>
             <Col><p>Javascript</p></Col>
           </Row>
+          
           <Row>
             <Col><img src={RailsLogo} className='logo' alt='Ruby on Rails'/></Col>
             <Col><img src={HTMLLogo} className='logo' alt='HTML5'/></Col>
