@@ -1,9 +1,11 @@
-.introduction {
+.intro {
   /* Credits: https://unsplash.com/photos/OxTT6kZs_gU */
   background-image: url('../assets/Snow Forest Background.jpg');
   background-size: cover;
   background-attachment: fixed;
   padding-top: 75px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .name {
