@@ -18,9 +18,13 @@ class Skills extends Component {
   render() {
     return (
       <div className='skills' id='skills'>
-        <Container>
+        <Container className='row1'>
           <Row>
-            <Col><img src={ReactLogo} className='logo' alt='React' /></Col>
+            <Col className='flip-card'>
+              <div className='flip-card-inner' >
+                <img src={ReactLogo} className='logo' alt='React' />
+              </div>
+            </Col>
             <Col><img src={ReduxLogo} className='logo' alt='Redux'/></Col>
             <Col><img src={JavaScriptLogo} className='logo' alt='JavaScript'/></Col>
           </Row>
@@ -29,6 +33,8 @@ class Skills extends Component {
             <Col><p>Redux</p></Col>
             <Col><p>Javascript</p></Col>
           </Row>
+          </Container>
+          <Container>
           
           <Row>
             <Col><img src={RailsLogo} className='logo' alt='Ruby on Rails'/></Col>

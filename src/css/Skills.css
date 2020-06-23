@@ -12,9 +12,25 @@
   padding-bottom: 5%;
 }
 
+.row1 {
+  margin-bottom: 5%;
+}
+
 .logo {
   width: 200px;
   height: 200px;
+
+  /* Partial card flip */
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
 
 .language {
