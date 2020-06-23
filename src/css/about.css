@@ -1,12 +1,24 @@
 .about {
   background-image: url('../assets/Snow Forest Background.jpg');
   background-size: cover;
-  /* background-position: center; */
 }
 
 .name {
+  /* Text */
+  text-shadow: 3px 3px 3px black;
+  /* -webkit-text-stroke: 1px black; */
+
+  /* Border and margin spacing */
   border: solid;
-  border-color: white;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 1em #FFFFFF;
   padding-top: 1em;
   padding-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.profile-pic {
+  box-shadow: 0 0 1em #FFFFFF;
+  margin-bottom: 3em;
 }

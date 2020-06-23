@@ -23,7 +23,7 @@ class About extends Component {
         </Row>
         <Row className='justify-content-md-center'>
           <Col xs={12} sm={4} md={4}>
-            <Image src={ProfilePic} roundedCircle />
+            <Image className='profile-pic' src={ProfilePic} roundedCircle />
           </Col>
         </Row>
       </div>
