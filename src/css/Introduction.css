@@ -1,0 +1,26 @@
+.introduction {
+  /* Credits: https://unsplash.com/photos/OxTT6kZs_gU */
+  background-image: url('../assets/Snow Forest Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 75px;
+}
+
+.name {
+  /* Text */
+  text-shadow: 3px 3px 3px black;
+
+  /* Border and margin spacing */
+  border: solid;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 1em #FFFFFF;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.profile-pic {
+  box-shadow: 0 0 1em black;
+  margin-bottom: 3em;
+}

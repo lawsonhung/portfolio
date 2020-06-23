@@ -1,31 +1,14 @@
 import React, { Component } from 'react';
-
-// React Bootstrap
-import Row from 'react-bootstrap/row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
-
-// Custom CSS
-import './css/about.css';
-
-// Profile Picture
-import ProfilePic from './assets/Social Media Profile Pic.jpg';
+import './css/About.css';
 
 class About extends Component {
 
   render() {
     return (
-      <div className='about'>
-        <Row className='justify-content-md-center'>
-          <Col xs={12} sm={4} md={4}>
-            <h1 className='name'>LAWSON HUNG</h1>
-          </Col>
-        </Row>
-        <Row className='justify-content-md-center'>
-          <Col xs={12} sm={4} md={4}>
-            <Image className='profile-pic' src={ProfilePic} roundedCircle />
-          </Col>
-        </Row>
+      <div>
+        <p className='about' id='about'>
+          I'm a full stack software engineer who really enjoys the winter months. Proficient in Ruby on Rails, JavaScript and React, I have a background in entrepreneurship and healthcare which allows me to make a valuable impact upon any business I am a part of. Outside of code, I am a New Yorker, exercise enthusiast, volunteer and teacher.
+        </p>
       </div>
     )
   }
