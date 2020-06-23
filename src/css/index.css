@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  cursor: default;
+}
+
+h1, h2, h3, h4, h5, p, div {
+  color: white;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.justify-content-md-center {
+  text-align: center;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
