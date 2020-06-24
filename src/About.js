@@ -5,13 +5,13 @@ class About extends Component {
 
   render() {
     return (
-      <div >
+      <div className='about' id='about'>
         <div className='divider'>&nbsp;</div>
-        <div className='about' id='about'>
+        <div>
 
-        <p className='aboutText'>
-          I'm a full stack software engineer who enjoys the winter months. Proficient in Ruby on Rails, JavaScript and React, I have a background in entrepreneurship and healthcare which allows me to make a valuable impact upon any business I am a part of. Outside of code, I am a New Yorker, exercise enthusiast and volunteer.
-        </p>
+          <p className='aboutText'>
+            I'm a full stack software engineer who enjoys the winter months. Proficient in Ruby on Rails, JavaScript and React, I have a background in entrepreneurship and healthcare which allows me to make a valuable impact upon any business I am a part of. Outside of code, I am a New Yorker, exercise enthusiast and volunteer.
+          </p>
         </div>
       </div>
     )

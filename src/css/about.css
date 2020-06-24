@@ -1,23 +1,30 @@
 .divider {
   background-color: black;
+  height: 4em;
 }
 
 .about {
   /* Background image */
   /* Credits: https://unsplash.com/photos/nV7GJmSq3zc */
-  background-image: url('../assets/NYC\ Background.jpg');
+  background-image: url('../assets/NYC Background.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+
+  margin-bottom: 5%;
 }
 
 .aboutText {
 
   /* Text Position */
-  /* margin-top: 5%; */
-  margin-right: 25%;
-  /* margin-bottom: 5%; */
-  margin-left: 25%;
+  margin-top: 20vh;
+  margin-right: 10vw;
+  /* margin-bottom: 25vh; */
+  margin-left: 10vw;
+  padding-bottom: 20vh;
   text-align: center;
-  font-size: 1.5em;
+
+  /* Text size and coloring */
+  font-size: 3em;
+  text-shadow: 2px 2px 2px black;
 }
