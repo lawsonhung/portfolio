@@ -1,0 +1,57 @@
+.skills-divider {
+  background-color: white;
+  font-size: 2em;
+}
+
+.skills {
+  /* Background image */
+  /* Credits: https://unsplash.com/photos/tKN1WXrzQ3s */
+  background-image: url('../assets/Cafe Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  /* Text and alignment */
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.row1 {
+  margin-bottom: 5%;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+
+  /* Partial card flip */
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.row1col3, .row1col3, .row2 {
+  transition: transform 0.2s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card:hover .row2 {
+  transform: rotateY(30deg);
+}
+
+.flip-card:hover .row1col3 {
+  transform: rotateY(30deg);
+}
+
+.language {
+  font-size: 1.75em;
+  text-shadow: 0px 0px 15px black;
+}

@@ -1,8 +1,12 @@
 #navbar-header {
   background-color: black;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 999;
+}
+
+.navbar-logo {
+  height: 1.5em;
 }
 
 button.navbar-toggler:hover {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import HomePage from './HomePage';
