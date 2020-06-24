@@ -9,6 +9,9 @@ import FormControl from 'react-bootstrap/FormControl';
 import Form from 'react-bootstrap/Form';
 
 // Custom CSS
+// Credits: https://www.hiclipart.com/free-transparent-background-png-clipart-zbinx
+import LinkedInLogo from './assets/LinkedIn.png';
+import GitHubLogo from './assets/GitHub.png';
 import './Navbar.css';
 
 class MyNavbar extends Component {
@@ -33,6 +36,17 @@ class MyNavbar extends Component {
                 <Button variant='outline-success'>Search</Button>
               </Form> */}
             </Nav>
+
+            <Nav className='justify-content-end'>
+              <Nav.Link href='https://linkedin.com/in/lawsonhung'>
+                <img src={LinkedInLogo}  className='navbar-logo' alt='LinkedIn'/>
+              </Nav.Link>
+
+              <Nav.Link href='https://github.com/lawsonhung'>
+                <img src={GitHubLogo} className='navbar-logo' alt='GitHub'/>
+              </Nav.Link>
+            </Nav>
+
           </Navbar.Collapse>
         </Navbar>
       </div>
