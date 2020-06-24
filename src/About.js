@@ -10,7 +10,7 @@ class About extends Component {
         <div>
 
           <p className='aboutText'>
-            Hi! I'm a full stack software engineer who enjoys the winter months. Proficient in Ruby on Rails, JavaScript and React, I have a background in entrepreneurship and healthcare which allows me to make a valuable impact upon any business I am a part of. Outside of code, I am a New Yorker, exercise enthusiast and volunteer.
+            Hi! I'm a full stack software engineer who enjoys the winter months. Proficient in Ruby on Rails, JavaScript and React, I have a background in entrepreneurship and healthcare which allows me to make a valuable impact upon any business I am a part of. Outside of code, I am a New Yorker, exercise enthusiast, board game hobbyist and volunteer.
           </p>
         </div>
       </div>
