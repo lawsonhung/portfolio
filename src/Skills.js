@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-// Credits: https://www.hiclipart.com/free-transparent-background-png-clipart-ircla
+// Credits: https://www.hiclipart.com
 import ReactLogo from './assets/React.png';
 import ReduxLogo from './assets/Redux.png';
 import JavaScriptLogo from './assets/JavaScript.png';
@@ -17,7 +17,10 @@ class Skills extends Component {
 
   render() {
     return (
-      <div className='skills' id='skills'>
+      <div>
+        {/* <div className='skills-divider'>&nbsp;</div> */}
+
+        <div className='skills' id='skills'>
         <Container className='row1'>
           <Row>
 
@@ -83,6 +86,7 @@ class Skills extends Component {
             <Col><p>PostgreSQL</p></Col>
           </Row>
         </Container>
+        </div>
       </div>
     )
   }

@@ -1,7 +1,23 @@
+.divider {
+  background-color: black;
+}
+
 .about {
-  margin-top: 5%;
+  /* Background image */
+  /* Credits: https://unsplash.com/photos/nV7GJmSq3zc */
+  background-image: url('../assets/NYC\ Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.aboutText {
+
+  /* Text Position */
+  /* margin-top: 5%; */
   margin-right: 25%;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   margin-left: 25%;
   text-align: center;
+  font-size: 1.5em;
 }

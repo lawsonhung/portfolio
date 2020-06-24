@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import LinkedInLogo from './assets/LinkedIn.png';
 import GitHubLogo from './assets/GitHub.png';
 import MediumLogo from './assets/Medium.png';
-import './Navbar.css';
+import './MyNavbar.css';
 
 class MyNavbar extends Component {
 
@@ -28,6 +28,7 @@ class MyNavbar extends Component {
               <Nav.Link href='#home' onSelect={() => this.scrollTo('home')}>Home</Nav.Link>
               <Nav.Link href='#about' onSelect={() => this.scrollTo('about')}>About</Nav.Link>
               <Nav.Link href='#skills' onSelect={() => this.scrollTo('skills')}>Skills</Nav.Link>
+              <Nav.Link href='#contact' onSelect={() => this.scrollTo('contact')}>Contact</Nav.Link>
             </Nav>
 
             <Nav className='justify-content-end'>
