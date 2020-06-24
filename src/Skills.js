@@ -20,28 +20,62 @@ class Skills extends Component {
       <div className='skills' id='skills'>
         <Container className='row1'>
           <Row>
+
             <Col className='flip-card'>
-              <div className='flip-card-inner' >
+              <div className='flip-card-inner'>
                 <img src={ReactLogo} className='logo' alt='React' />
               </div>
             </Col>
-            <Col><img src={ReduxLogo} className='logo' alt='Redux'/></Col>
-            <Col><img src={JavaScriptLogo} className='logo' alt='JavaScript'/></Col>
+            
+            <Col className='flip-card'>
+              <div className='flip-card-inner'>
+                <img src={ReduxLogo} className='logo' alt='Redux'/>
+              </div>
+            </Col>
+
+            <Col className='flip-card'>
+              <div className='row1col3'>
+                <img src={JavaScriptLogo} className='logo' alt='JavaScript'/>
+              </div>
+            </Col>
           </Row>
+
           <Row className='language'>
             <Col><p>React</p></Col>
             <Col><p>Redux</p></Col>
-            <Col><p>Javascript</p></Col>
+            <Col><p>JavaScript</p></Col>
           </Row>
-          </Container>
-          <Container>
-          
+
+        </Container>
+
+        <Container>
           <Row>
-            <Col><img src={RailsLogo} className='logo' alt='Ruby on Rails'/></Col>
-            <Col><img src={HTMLLogo} className='logo' alt='HTML5'/></Col>
-            <Col><img src={CSSLogo} className='logo' alt='CSS3'/></Col>
-            <Col><img src={PostgreSQLLogo} className='logo' alt='PostgreSQL'/></Col>
+            
+            <Col className='flip-card'>
+              <div className='row2'>
+                <img src={RailsLogo} className='logo' alt='Ruby on Rails'/>
+              </div>
+            </Col>
+
+            <Col className='flip-card'>
+              <div className='row2'>
+                <img src={HTMLLogo} className='logo' alt='HTML5'/>
+              </div>
+            </Col>
+
+            <Col className='flip-card'>
+              <div className='row2'>
+                <img src={CSSLogo} className='logo' alt='CSS3'/>
+              </div>
+            </Col>
+            
+            <Col className='flip-card'>
+              <div className='row2'>
+                <img src={PostgreSQLLogo} className='logo' alt='PostgreSQL'/>
+              </div>
+            </Col>
           </Row>
+
           <Row className='language'>
             <Col><p>Ruby on Rails</p></Col>
             <Col><p>HTML5</p></Col>

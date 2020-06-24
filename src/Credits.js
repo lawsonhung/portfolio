@@ -6,7 +6,7 @@ class Credits extends Component {
   render() {
     return (
       <div>
-        <span>Snowy Forest Background Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt on Unsplash</a></span>
+        <span>Snowy Forest Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt on Unsplash</a></span>
         <br/>
         <span>New York City Photo by <a href="https://unsplash.com/@andreacau?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrea Cau on Unsplash</a></span>
       </div>

@@ -25,12 +25,25 @@
 }
 
 .flip-card-inner {
-  transition: transform 1s;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.row1col3, .row1col3, .row2 {
+  transition: transform 0.2s;
   transform-style: preserve-3d;
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+}
+
+.flip-card:hover .row2 {
+  transform: rotateY(30deg);
+}
+
+.flip-card:hover .row1col3 {
+  transform: rotateY(30deg);
 }
 
 .language {
