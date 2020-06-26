@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import MyNavbar from './MyNavbar';
 import Introduction from './Introduction';
-import About from './About';
+import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Contact from './Contact';
 import Credits from './Credits';
@@ -18,7 +18,7 @@ class HomePage extends Component {
 
         <MyNavbar />
         <Introduction />
-        <About />
+        <AboutMe />
         <Skills />
         <Contact />
         <Credits />
