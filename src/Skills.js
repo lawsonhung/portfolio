@@ -18,7 +18,7 @@ class Skills extends Component {
   render() {
     return (
       <div>
-        {/* <div className='skills-divider'>&nbsp;</div> */}
+        <div className='skills-divider'>&nbsp;</div>
 
         <div className='skills' id='skills'>
         <Container className='row1'>
