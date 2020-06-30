@@ -1,0 +1,14 @@
+.projects-divider {
+  background-color: black;
+  height: 5vh;
+}
+
+.projects {
+  /* Background image */
+  background-image: url('../assets/Wooden\ Plank\ Background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}

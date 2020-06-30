@@ -14,6 +14,8 @@ class Credits extends Component {
           <a href="https://unsplash.com/@daanelise?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">daan evers on Unsplash</a>
           </span>
         &nbsp;|&nbsp;
+        Projects background coming soon!
+        &nbsp;|&nbsp;
         <span>Logos from <a href='https://www.hiclipart.com/'>hiclipart.com</a></span>
         <br/>
         <span>&copy; Lawson Hung | 2020</span>
