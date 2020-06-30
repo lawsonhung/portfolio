@@ -4,6 +4,7 @@ import MyNavbar from './MyNavbar';
 import Introduction from './Introduction';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
+import Projects from './Projects';
 import Contact from './Contact';
 import Credits from './Credits';
 
@@ -20,6 +21,7 @@ class HomePage extends Component {
         <Introduction />
         <AboutMe />
         <Skills />
+        <Projects />
         <Contact />
         <Credits />
 

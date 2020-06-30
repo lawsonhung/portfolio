@@ -2,8 +2,6 @@
   /* Credits: https://unsplash.com/photos/-WW8jBak7bo */
   background-image: url('../assets/Office Desk Background.jpg');
   background-size: cover;
-  /* background-attachment: fixed; */
-  /* background-position: center; */
   padding-top: 75px;
   height: 100vh;
   width: 100vw;
@@ -16,12 +14,7 @@
   font-size: 3em;
   text-shadow: 3px 3px 3px black;
 
-  /* Border and margin spacing */
-  /* border: solid;
-  border-color: #FFFFFF; */
-  /* box-shadow: 0 0 1em #FFFFFF; */
-  /* padding-top: 1em;
-  padding-bottom: 1em; */
+  /* Margin spacing */
   margin-top: 1em;
   margin-bottom: 1em;
 }
