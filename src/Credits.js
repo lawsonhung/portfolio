@@ -34,9 +34,12 @@ class Credits extends Component {
 
         &nbsp;|&nbsp;
 
-        Projects background coming soon!
+        Wooden Planks Photo by&nbsp;
+        <a href="https://www.pexels.com/photo/close-up-of-wooden-plank-326311/" target='_blank' rel='noopener noreferrer'>
+          Pixabay on Pexels
+        </a>
 
-        &nbsp;|&nbsp;
+        <br/>
 
         <span>
           Logos from&nbsp;

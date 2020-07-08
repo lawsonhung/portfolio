@@ -45,7 +45,7 @@ class Projects extends Component {
               </Col>
             </Row>
 
-            <Row>
+            <Row className='space-between-project-row'>
               <Col>
 
                 <h1>Java</h1>
@@ -57,6 +57,7 @@ class Projects extends Component {
                 <a href='https://github.com/aleksandra1995/coffee-review-app/tree/master/coffee-review-front-end' target='_blank' rel='noopener noreferrer'>Frontend</a>
                 <span>&nbsp;|&nbsp;</span>
                 <a href='https://github.com/aleksandra1995/coffee-review-app/tree/master/coffee-reviews-backend/mod-3-project-coffee-reviews' target='_blank' rel='noopener noreferrer'>Backend</a>
+
               </Col>
             </Row>
           </Container>
