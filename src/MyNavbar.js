@@ -17,11 +17,6 @@ class MyNavbar extends Component {
     document.getElementById(elementId).scrollIntoView();
   }
 
-  handleClick = (url) => {
-    let win = window.open(url, '_blank');
-    win.focus();
-  }
-
   render() {
     return (
       <div>
@@ -33,19 +28,20 @@ class MyNavbar extends Component {
               <Nav.Link href='#home' onSelect={() => this.scrollTo('home')}>Home</Nav.Link>
               <Nav.Link href='#about' onSelect={() => this.scrollTo('about')}>About</Nav.Link>
               <Nav.Link href='#skills' onSelect={() => this.scrollTo('skills')}>Skills</Nav.Link>
+              <Nav.Link href='#projects' onSelect={() => this.scrollTo('projects')}>Projects</Nav.Link>
               <Nav.Link href='#contact' onSelect={() => this.scrollTo('contact')}>Contact</Nav.Link>
             </Nav>
 
             <Nav className='justify-content-end'>
-              <Nav.Link href='javascript:void(0)' onClick={() => this.handleClick('https://linkedin.com/in/lawsonhung')}>
+              <Nav.Link href='https://linkedin.com/in/lawsonhung' target='_blank' rel='noopener noreferrer'>
                 <img src={LinkedInLogo}  className='navbar-logo' alt='LinkedIn'/>
               </Nav.Link>
 
-              <Nav.Link href='javascript:void(0)' onClick={() => this.handleClick('https://github.com/lawsonhung')}>
+              <Nav.Link href='https://github.com/lawsonhung' target='_blank' rel='noopener noreferrer'>
                 <img src={GitHubLogo} className='navbar-logo' alt='GitHub'/>
               </Nav.Link>
 
-              <Nav.Link href='javascript:void(0)' onClick={() => this.handleClick('https://medium.com/@lawsonhung')}> 
+              <Nav.Link href='https://medium.com/@lawsonhung' target='_blank' rel='noopener noreferrer'>
                 <img src={MediumLogo} className='navbar-logo' alt='Medium'/>
               </Nav.Link>
             </Nav>

@@ -11,4 +11,12 @@
 
   padding-top: 5vh;
   padding-bottom: 5vh;
+
+  /* Text */
+  text-align: center;
+  font-size: 2em;
+}
+
+.space-between-project-row {
+  margin-top: 1em;
 }
