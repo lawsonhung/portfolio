@@ -33,15 +33,15 @@ class MyNavbar extends Component {
             </Nav>
 
             <Nav className='justify-content-end'>
-              <Nav.Link href='https://linkedin.com/in/lawsonhung' target='_blank'>
+              <Nav.Link href='https://linkedin.com/in/lawsonhung' target='_blank' rel='noopener noreferrer'>
                 <img src={LinkedInLogo}  className='navbar-logo' alt='LinkedIn'/>
               </Nav.Link>
 
-              <Nav.Link href='https://github.com/lawsonhung' target='_blank'>
+              <Nav.Link href='https://github.com/lawsonhung' target='_blank' rel='noopener noreferrer'>
                 <img src={GitHubLogo} className='navbar-logo' alt='GitHub'/>
               </Nav.Link>
 
-              <Nav.Link href='https://medium.com/@lawsonhung' target='_blank'> 
+              <Nav.Link href='https://medium.com/@lawsonhung' target='_blank' rel='noopener noreferrer'>
                 <img src={MediumLogo} className='navbar-logo' alt='Medium'/>
               </Nav.Link>
             </Nav>
