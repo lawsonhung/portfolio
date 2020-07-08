@@ -13,17 +13,22 @@ import './css/index.css';
 
 class HomePage extends Component {
 
+  handleClick = (url) => {
+    let win = window.open(url, '_blank');
+    win.focus();
+  }
+
   render () {
     return (
       <div>
 
-        <MyNavbar />
+        <MyNavbar/>
         <Introduction />
         <AboutMe />
         <Skills />
-        <Projects />
+        <Projects handleClick={this.handleClick}/>
         <Contact />
-        <Credits />
+        <Credits/>
 
       </div>
     )
