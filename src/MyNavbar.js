@@ -33,6 +33,7 @@ class MyNavbar extends Component {
               <Nav.Link href='#home' onSelect={() => this.scrollTo('home')}>Home</Nav.Link>
               <Nav.Link href='#about' onSelect={() => this.scrollTo('about')}>About</Nav.Link>
               <Nav.Link href='#skills' onSelect={() => this.scrollTo('skills')}>Skills</Nav.Link>
+              <Nav.Link href='#projects' onSelect={() => this.scrollTo('projects')}>Projects</Nav.Link>
               <Nav.Link href='#contact' onSelect={() => this.scrollTo('contact')}>Contact</Nav.Link>
             </Nav>
 
