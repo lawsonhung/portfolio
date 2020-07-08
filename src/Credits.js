@@ -8,7 +8,7 @@ class Credits extends Component {
       <div className='credits'>
 
         <span>
-          Creative Flatlay Photo by &nbsp;
+          Creative Flatlay Photo by&nbsp;
           <a href="https://unsplash.com/@andyoneru?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target='_blank' rel='noopener noreferrer'>
             Andyone on Unsplash
           </a>
@@ -17,7 +17,7 @@ class Credits extends Component {
         &nbsp;|&nbsp;
 
         <span>
-          Snow Forest Photo by &nbsp;
+          Snow Forest Photo by&nbsp;
           <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target='_blank' rel='noopener noreferrer'>
             Annie Spratt on Unsplash
           </a>
@@ -39,7 +39,7 @@ class Credits extends Component {
         &nbsp;|&nbsp;
 
         <span>
-          Logos from &nbsp;
+          Logos from&nbsp;
           <a href='https://hiclipart.com/' target='_blank' rel='noopener noreferrer'>
             hiclipart.com
           </a>
@@ -48,7 +48,7 @@ class Credits extends Component {
         <br/>
 
         <span>&copy; Lawson Hung | 2020</span>
-        
+
       </div>
     )
   }
