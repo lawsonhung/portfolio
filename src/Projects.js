@@ -18,7 +18,7 @@ class Projects extends Component {
 
                 <h1>Delightful Texts</h1>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vMZTea1-GBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title='Delightful Texts' width="560" height="315" src="https://www.youtube.com/embed/vMZTea1-GBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 <br/>
 
@@ -32,7 +32,7 @@ class Projects extends Component {
 
                 <h1>Let's Chat</h1>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fzxA1PBSZeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="Let's Chat" width="560" height="315" src="https://www.youtube.com/embed/fzxA1PBSZeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
                 <br/>
 
@@ -50,7 +50,7 @@ class Projects extends Component {
 
                 <h1>Java</h1>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rz_69f4Z_4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title='Java' width="560" height="315" src="https://www.youtube.com/embed/Rz_69f4Z_4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 <br/>
 
