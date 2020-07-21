@@ -25,6 +25,8 @@ class Projects extends Component {
                 <a href='https://github.com/lawsonhung/delightful-texts-frontend' target='_blank' rel='noopener noreferrer'>Frontend</a>
                 <span>&nbsp;|&nbsp;</span>
                 <a href='https://github.com/lawsonhung/Delightful-Texts-Backend' target='_blank' rel='noopener noreferrer'>Backend</a>
+                <span>&nbsp;|&nbsp;</span>
+                <a href='http://delightful-texts.surge.sh/registration' target='_blank' rel='noopener noreferrer'>Project</a>
 
               </Col>
 
