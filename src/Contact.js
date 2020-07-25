@@ -16,9 +16,11 @@ class Contact extends Component {
           &nbsp;(917)968-2138
         </p>
         <p>
-          <img src={EmailIcon} className='icon' alt='Email'/>
+          <a href={'mailto:lhung1@babson.edu'} target='_blank' rel='noopener noreferrer'>
+            <img src={EmailIcon} className='icon' alt='Email'/>
           &nbsp;lhung1@babson.edu
-          </p>
+          </a>
+        </p>
       </div>
     )
   }
