@@ -20,8 +20,8 @@ class Skills extends Component {
       <div id='skills'>
         <div className='skills-divider'>&nbsp;</div>
 
-        <div className='skills'>
-          <Container className='row1'>
+        <div className='skills skills-grid-wrapper'>
+          {/* <Container className='row1'>
             <Row>
 
               <Col className='flip-card'>
@@ -85,7 +85,43 @@ class Skills extends Component {
               <Col><p>CSS3</p></Col>
               <Col><p>PostgreSQL</p></Col>
             </Row>
-          </Container>
+          </Container> */}
+
+          <div className='flip-card'>
+              <img src={ReactLogo} className='logo flip-card-inner' alt='React' />
+              <p>React</p>
+          </div>
+
+          <div className='flip-card'>
+              <img src={ReduxLogo} className='logo flip-card-inner' alt='Redux' />
+              <p>Redux</p>
+          </div>
+
+          <div className='flip-card'>
+              <img src={JavaScriptLogo} className='logo flip-card-inner' alt='JavaScript' />
+              <p>JavaScript</p>
+          </div>
+
+          <div className='flip-card'>
+              <img src={RailsLogo} className='logo flip-card-inner' alt='Rails' />
+              <p>Rails</p>
+          </div>
+
+          <div className='flip-card'>
+              <img src={HTMLLogo} className='logo flip-card-inner' alt='HTML' />
+              <p>HTML</p>
+          </div>
+
+          <div className='flip-card'>
+              <img src={CSSLogo} className='logo flip-card-inner' alt='CSS' />
+              <p>CSS</p>
+          </div>
+
+          <div className='flip-card'>
+              <img src={PostgreSQLLogo} className='logo flip-card-inner' alt='PostgreSQL' />
+              <p>PostgreSQL</p>
+          </div>
+        {/* End .skills, .skills-grid-wrapper */}
         </div>
       </div>
     )

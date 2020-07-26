@@ -19,8 +19,22 @@
   height: 100vh;
 }
 
+.skills-grid-wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));
+  grid-template-rows: repeat(auto-fill, minmax(200px, 2fr));
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-content: end;
+  grid-gap: 7px;
+}
+
+.flip-card {
+  margin: 0;
+}
+
 .row1 {
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 
 .logo {
