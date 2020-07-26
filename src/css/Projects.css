@@ -18,7 +18,7 @@
   font-size: 2em;
 }
 
-.grid-wrapper {
+.projects-grid-wrapper {
   grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(480px, 1fr));
   display: grid;

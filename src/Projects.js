@@ -9,7 +9,7 @@ class Projects extends Component {
         <div className='projects-divider'>&nbsp;</div>
         <div className='projects'>
 
-          <div className='grid-wrapper'>
+          <div className='projects-grid-wrapper'>
 
             <div className='card'>
               <h1>Delightful Texts</h1>
@@ -53,7 +53,7 @@ class Projects extends Component {
               </span>
             </div>
 
-          {/* End .grid-wrapper */}
+          {/* End .projects-grid-wrapper */}
           </div>
         {/* End .projects */}
         </div>
