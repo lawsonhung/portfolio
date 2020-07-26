@@ -19,8 +19,8 @@
 }
 
 .grid-wrapper {
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(480px, 1fr));
   display: grid;
   /* height: 130em; */
   justify-content: center;
@@ -37,8 +37,4 @@
 .project-links {
   font-size: 0.5em;
   margin-top: 0;
-}
-
-.space-between-project-row {
-  margin-top: 1em;
 }

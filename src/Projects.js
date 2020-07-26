@@ -69,7 +69,7 @@ class Projects extends Component {
             <div className='card'>
               <h1>Delightful Texts</h1>
 
-              <iframe title='Delightful Texts' width="560" height="315" src="https://www.youtube.com/embed/vMZTea1-GBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title='Delightful Texts' height="315" src="https://www.youtube.com/embed/vMZTea1-GBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               <span className='project-links'>
                 <a href='https://github.com/lawsonhung/delightful-texts-frontend' target='_blank' rel='noopener noreferrer'>Frontend</a>
@@ -84,7 +84,7 @@ class Projects extends Component {
 
               <h1>Let's Chat</h1>
 
-              <iframe title="Let's Chat" width="560" height="315" src="https://www.youtube.com/embed/fzxA1PBSZeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="Let's Chat" height="315" src="https://www.youtube.com/embed/fzxA1PBSZeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               <span className='project-links'>
                 <a href='https://github.com/lawsonhung/ChatApp-FrontEnd' target='_blank' rel='noopener noreferrer'>Frontend</a>
@@ -99,7 +99,7 @@ class Projects extends Component {
 
               <h1>Java</h1>
 
-              <iframe title='Java' width="560" height="315" src="https://www.youtube.com/embed/Rz_69f4Z_4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title='Java' height="315" src="https://www.youtube.com/embed/Rz_69f4Z_4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               <span className='project-links'>
                 <a href='https://github.com/aleksandra1995/coffee-review-app/tree/master/coffee-review-front-end' target='_blank' rel='noopener noreferrer'>Frontend</a>
