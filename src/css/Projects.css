@@ -3,7 +3,7 @@
   height: 5vh;
 }
 
-.projects {
+.projects, .card {
   /* Background image */
   /* Credits: https://www.pexels.com/photo/close-up-of-wooden-plank-326311/ */
   background-image: url('../assets/Wooden\ Plank\ Background.jpg');
@@ -18,6 +18,22 @@
   font-size: 2em;
 }
 
-.space-between-project-row {
-  margin-top: 1em;
+.grid-wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(480px, 1fr));
+  display: grid;
+  /* height: 130em; */
+  justify-content: center;
+  align-content: end;
+  grid-gap: 7px;
+}
+
+.card {
+  height: 100%;
+  margin: 0;
+  padding-left: 20px
+}
+
+.project-links {
+  font-size: 0.5em;
 }
