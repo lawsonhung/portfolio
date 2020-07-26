@@ -10,59 +10,7 @@ class Projects extends Component {
     return (
       <div id='projects'>
         <div className='projects-divider'>&nbsp;</div>
-
         <div className='projects'>
-          {/* <Container>
-            <Row>
-              <Col>
-
-                <h1>Delightful Texts</h1>
-
-                <iframe title='Delightful Texts' width="560" height="315" src="https://www.youtube.com/embed/vMZTea1-GBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                <br/>
-
-                <a href='https://github.com/lawsonhung/delightful-texts-frontend' target='_blank' rel='noopener noreferrer'>Frontend</a>
-                <span>&nbsp;|&nbsp;</span>
-                <a href='https://github.com/lawsonhung/Delightful-Texts-Backend' target='_blank' rel='noopener noreferrer'>Backend</a>
-                <span>&nbsp;|&nbsp;</span>
-                <a href='http://delightful-texts.surge.sh/registration' target='_blank' rel='noopener noreferrer'>Project</a>
-
-              </Col>
-
-              <Col>
-
-                <h1>Let's Chat</h1>
-
-                <iframe title="Let's Chat" width="560" height="315" src="https://www.youtube.com/embed/fzxA1PBSZeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
-                <br/>
-
-                <a href='https://github.com/lawsonhung/ChatApp-FrontEnd' target='_blank' rel='noopener noreferrer'>Frontend</a>
-                <span>&nbsp;|&nbsp;</span>
-                <a href='https://github.com/lawsonhung/ChatApp-BackEnd' target='_blank' rel='noopener noreferrer'>Backend</a>
-                <span>&nbsp;|&nbsp;</span>
-                <a href='http://angry-cabbage.surge.sh/' target='_blank' rel='noopener noreferrer'>Project</a>
-
-              </Col>
-            </Row>
-
-            <Row className='space-between-project-row'>
-              <Col>
-
-                <h1>Java</h1>
-
-                <iframe title='Java' width="560" height="315" src="https://www.youtube.com/embed/Rz_69f4Z_4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                <br/>
-
-                <a href='https://github.com/aleksandra1995/coffee-review-app/tree/master/coffee-review-front-end' target='_blank' rel='noopener noreferrer'>Frontend</a>
-                <span>&nbsp;|&nbsp;</span>
-                <a href='https://github.com/aleksandra1995/coffee-review-app/tree/master/coffee-reviews-backend/mod-3-project-coffee-reviews' target='_blank' rel='noopener noreferrer'>Backend</a>
-
-              </Col>
-            </Row>
-          </Container> */}
 
           <div className='grid-wrapper'>
 
@@ -110,7 +58,7 @@ class Projects extends Component {
 
           {/* End .grid-wrapper */}
           </div>
-          {/* End .projects */}
+        {/* End .projects */}
         </div>
 
       {/* End #projects */}
