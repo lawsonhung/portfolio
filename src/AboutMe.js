@@ -7,12 +7,14 @@ class AboutMe extends Component {
     return (
       <div className='about' id='about'>
         <div className='divider'>&nbsp;</div>
-        <div>
 
+        <div>
           <p className='aboutText'>
-            Hi! I am a full stack software engineer who enjoys the winter months. Proficient in Ruby on Rails, JavaScript and React, I have a background in entrepreneurship, education, and healthcare which allows me to make a valuable impact upon any business I am a part of. Outside of code, I am a New Yorker, exercise enthusiast, board game hobbyist and volunteer.
+            Hello! I am a full stack software engineer living in New York who enjoys the winter months. I am proficient in Ruby on Rails, JavaScript, and React. With a background in entrepreneurship, education, and healthcare, I have a wide variety of skills that are beneficial to any company. Besides being a coder, I am an excercise enthusiast, board game hobbyist, and community volunteer.
+
           </p>
         </div>
+
       </div>
     )
   }
