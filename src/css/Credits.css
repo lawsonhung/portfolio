@@ -6,3 +6,8 @@
 a, span {
   font-size: 1em;
 }
+
+/* Override User Agent Stylesheets */
+body {
+  margin: 0;
+}

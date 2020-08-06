@@ -12,3 +12,8 @@
 button.navbar-toggler:hover {
   background-color: grey;
 }
+
+/* Override User Agent Stylesheets */
+body {
+  margin: 0;
+}

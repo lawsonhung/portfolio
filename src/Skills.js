@@ -41,12 +41,12 @@ class Skills extends Component {
 
           <div className='flip-card'>
               <img src={HTMLLogo} className='logo flip-card-inner' alt='HTML' />
-              <p className='language'>HTML</p>
+              <p className='language'>HTML5</p>
           </div>
 
           <div className='flip-card'>
               <img src={CSSLogo} className='logo flip-card-inner' alt='CSS' />
-              <p className='language'>CSS</p>
+              <p className='language'>CSS3</p>
           </div>
 
           <div className='flip-card'>

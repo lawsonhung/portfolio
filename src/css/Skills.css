@@ -70,3 +70,8 @@
   font-size: 1.75em;
   text-shadow: 0px 0px 15px black;
 }
+
+/* Override User Agent Stylesheets */
+body {
+  margin: 0;
+}

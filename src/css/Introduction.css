@@ -22,3 +22,8 @@
 .profile-pic {
   box-shadow: 0 0 1em black;
 }
+
+/* Override User Agent Stylesheets */
+body {
+  margin: 0;
+}
