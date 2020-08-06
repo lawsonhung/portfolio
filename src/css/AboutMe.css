@@ -10,7 +10,7 @@
   background-size: cover;
   background-attachment: fixed;
 
-  height: 100vh;
+  height: 100%;
 }
 
 .aboutText {
@@ -42,4 +42,9 @@
     margin-left: 5vw;
     padding: 0.25em;
   }
+}
+
+/* Override User Agent Stylesheets */
+body {
+  margin: 0;
 }

@@ -37,3 +37,8 @@
 .project-links {
   font-size: 0.5em;
 }
+
+/* Override User Agent Stylesheets */
+body {
+  margin: 0;
+}

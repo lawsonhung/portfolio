@@ -11,3 +11,8 @@ p {
 .icon {
   height: 1.5em;
 }
+
+/* Override User Agent Stylesheets */
+body {
+  margin: 0;
+}
