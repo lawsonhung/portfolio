@@ -12,6 +12,7 @@ class Projects extends Component {
           <div className='projects-grid-wrapper'>
 
             <div className='card'>
+              
               <h1>Delightful Texts</h1>
 
               <iframe title='Delightful Texts' height="315" src="https://www.youtube.com/embed/vMZTea1-GBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
