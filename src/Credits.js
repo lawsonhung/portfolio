@@ -50,7 +50,7 @@ class Credits extends Component {
 
         <br/>
 
-        <span>&copy; Lawson Hung | 2020</span>
+        <span>&copy; Lawson Hung | 2024</span>
 
       </div>
     )

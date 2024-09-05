@@ -13,12 +13,12 @@ class Contact extends Component {
       <div className='contact' id='contact'>
         <p>
           <img src={PhoneIcon} className='icon' alt='Phone'/>
-          &nbsp;(917)968-2138
+          &nbsp;(347)352-1676
         </p>
         <p>
-          <a href={'mailto:lhung1@babson.edu'} target='_blank' rel='noopener noreferrer'>
+          <a href={'mailto:lhung23567@gmail.com'} target='_blank' rel='noopener noreferrer'>
             <img src={EmailIcon} className='icon' alt='Email'/>
-          &nbsp;lhung1@babson.edu
+          &nbsp;lhung23567@gmail.com
           </a>
         </p>
       </div>
